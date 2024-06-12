@@ -23,7 +23,7 @@ export default function AddStore() {
   const cancelButtonRef = useRef(null);
 
   const addProduct = () => {
-    fetch("http://localhost:4000/api/store/add", {
+    fetch("https://inventory-management-server-cqd5.onrender.com/api/store/add", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
